@@ -1,6 +1,6 @@
-package com.example.mc_crud_test
+package com.example.mason_chase
 
 import io.flutter.embedding.android.FlutterActivity
 
-class MainActivity: FlutterActivity() {
+class MainActivity : FlutterActivity() {
 }
