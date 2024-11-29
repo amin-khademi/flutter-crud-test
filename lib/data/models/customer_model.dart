@@ -13,7 +13,9 @@ class Customer {
     required this.phoneNumber,
     required this.email,
     required this.bankAccountNumber,
-  });
+  }) {
+    phoneNumber = phoneNumber.replaceAll(RegExp(r'\D'), '');
+  }
 
   Map<String, dynamic> toJson() => {
         'firstname': firstname,
